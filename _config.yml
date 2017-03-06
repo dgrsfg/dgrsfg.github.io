@@ -1,0 +1,27 @@
+# Site settings
+title: Summer Blog
+header-img: img/home-bg.jpg
+email: stghe355@gmail.com
+copyright_name: Summer
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "https://dgrsfg.github.io/"
+# twitter_username: SBootstrap
+zhihu_username:   dgrsfg
+weibo_username:   dgrsfg
+github_username:  dgrsfg
+# facebook_username:  dgrsfg
+email_username:  stghe355@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+# markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
